@@ -1,0 +1,42 @@
+
+#c{
+   position: relative;
+    margin: auto;
+  
+    height: 45vw;
+    width: 42vw;
+    background: url("clock2e.jpg") no-repeat;
+    background-size: 100%;
+/*    important property......... */
+}
+#hour,#min,#sec{
+   background-color: black;
+    position: absolute;
+    border-radius: 10px;
+  }
+#hour{
+    background: rgb(35, 31, 31);
+    height: 21%;
+    margin-top: 31%;
+    width: 1.78%;
+    margin-left: 49.14%;
+    transform-origin: bottom;
+}
+  #min{
+    background: rgb(35, 31, 31);
+    height: 28%;
+    margin-top: 24.1%;
+    width: 1%;
+    margin-left: 49.164%;
+    transform-origin: bottom; 
+    
+} 
+#sec{
+    transform: rotate(90deg);
+    background: rgb(35, 31, 31);
+    height: 30%;
+    margin-top: 23%;
+    width: 0.5%;
+    margin-left: 49.49%;
+    transform-origin: bottom
+}  
